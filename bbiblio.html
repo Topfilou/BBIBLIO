@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bbiblio.css" type="text/css">
+    <script async src="bbiblio.js"></script>
+
+
+
+
+                                                            <!-- MODE D'EMPLOI (par manque de temps):
+
+
+                    Selon si la personne qui vient sur le site est un visiteur, ou se connecte en tant que juré, ou auteur, 
+                    certains onglets apparaissent différemment:
+
+                    Dans l'onglet "Accueil", lors du passage de la souris sur la jaquette, est censé apparaître un court résumé, et en cliquant dessus,
+                    il apparaît la page complète de l'oeuvre, ou on voit les données du livre, et son résumé.
+                    Pour voir cette page oeuvre, ouvrez le fichier oeuvrevisiteur.html
+
+                    La même page qui s'ouvre connecté en mode juré, possède au bas de celle-ci le système de vote, avec les catégories de notation.
+                    Pour voir cette page en mode juré, ouvrez le fichier oeuvrejure.html
+                    
+                    Lors du vote du juré, celui-ci rentre dans la base de donnée, et ces votes peuvent être consultés dans un onglet spécial "administrateur",
+                    grâce à son autentifiant dans "connexion". 
+                    
+
+                    Dans l'onglet "oeuvres", se trouve les catégories consultables, qui revoient simplement sur un système de tri sur la base de données.
+
+                    Lors de l'inscription d'un juré, d'un auteur, ou d'une oeuvre, ceux-ci vont nourrir la base de donnée.
+
+
+                    l'exemple de base de donnée est dans le fichier: bddbiblio.xml
+                    
+
+                    Chaque connexion détecte que la personne est un juré ou auteur directement par comparaison de son identifiant
+                    dans la base de donnée, enregistrée dans celle-ci au moment de son inscription, et suivant par quel onglet elle s'est inscrite. 
+                    Suivant si la personne est juré ou auteur, l'affichage de certaines pages est différent: 
+                
+                    -->
+
+
+
+
+
+    <title>bbiblio</title>
+</head>
+    <body>
+        
+     <section class="header">
+        
+        <h1>BBIBLIO</h1>
+    
+        <div class="connexion">
+            <a href="connexion.html" id="connexion" input type="button">Connexion</a>
+        </div>
+        
+        
+    </section>
+        
+        
+            <nav>
+                <ul>
+                    <li><a href="bbiblio.html" input type="button">Accueil</a>
+
+                    
+
+                    </li>
+                    <li><a href="#">L'Association</a>
+                        <ul>
+                            <li><a href="festival.html" input type="button">Le Festival</a></li>
+                            <li><a href="equipe.html" input type="button">L'Equipe</a></li>
+                            <li><a href="mecenat.html" input type="button">Mécénat</a></li>
+                            
+                        </ul>
+                    </li>
+
+
+
+
+                    <li><a href="#">Oeuvres</a>
+                        <ul>
+                            <li><a href="bbiblio.html" input type="button">Romans Français</a></li>
+                            <li><a href="bbiblio.html" input type="button">Romans Etrangers</a></li>
+                            <li><a href="bbiblio.html" input type="button">Documentaires</a></li>
+                            <li><a href="bbiblio.html" input type="button">Biographies</a></li>
+                            
+                        </ul>
+                    </li>
+
+
+                    <li><a href="concours.html" input type="button">Concours</a></li>
+                        
+                        
+                    </li>
+                    <li><a href="news.html" input type="button">News</a>
+                    
+                    </li>
+                    <li><a href="#">Inscription</a>
+                        <ul>
+                            <li><a href="inscrijure.html" input type="button">Jury</a></li>
+                            <li><a href="inscriauteur.html" input type="button">Auteurs</a></li>                    
+                            <li><a href="inscrioeuvre.html" input type="button">Oeuvres</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li><a href="#">Historique</a>
+                        <ul>
+                            <li><a href="concourprecedent.html" input type="button">Concours précédents</a></li>
+                            <li><a href="histoconsulte.html" input type="button">Historique consultations</a></li>
+                        
+                        </div>
+                    </li>
+                </ul>
+                
+            </nav>
+        
+    <section class="centre">
+        
+
+
+        <div class="jaquette">
+
+            <!-- <img src="jac1.jpg" alt="jac1" class="jac" style="width:100%">
+            <div class="milieu">
+              <div class="text">
+                  <a href="oeuvrevisiteur.html" input type="button"></a><h4>résumé</h4>
+                  ipsum dolor sit amet consectetur adipisicing elit.
+                  Nisi tempore autem nesciunt vitae necessitatibus repudiandae, consequatur minus
+                  quos cupiditate rem quidem tenetur magni ipsa, quae dicta inventore fugit hic esse!</div>
+            </div>
+          </div> -->
+
+                <img src="jac1.jpg" alt="">
+                <img src="jac2.jpg" alt="">
+                <img src="jac3.jpg" alt="">
+                <img src="jac4.jpg" alt="">
+                <img src="jac5.jpg" alt="">
+                <img src="jac6.jpg" alt="">
+                <img src="jac7.jpg" alt="">
+                <img src="jac8.jpg" alt="">
+                <img src="jac9.jpg" alt="">
+                <img src="jac1.jpg" alt="">
+                <img src="jac2.jpg" alt="">
+                <img src="jac3.jpg" alt="">
+                <img src="jac4.jpg" alt="">
+                <img src="jac5.jpg" alt="">
+                <img src="jac6.jpg" alt="">
+                <img src="jac7.jpg" alt="">
+                <img src="jac8.jpg" alt="">
+                <img src="jac9.jpg" alt="">
+        </div>
+            <!-- <div onglets>
+                <a href="oeuvrevisiteur.html" input type="button" placeholder="oeuvre mode juré"></a>
+                <a href="oeuvrejure.html" input type="button" placeholder="oeuvre mode visiteur"></a>
+            </div> -->
+    </section>
+
+    
+
+<hr>
+    <footer>
+        <div class="sponsor"><img src="afpa.jpg"></div>
+        <div class="sponsor"><img src="alien.jpg"></div>
+        <div class="sponsor"><img src="sofia.png"></div>
+
+        <div class="plandesite">
+            <h2>Plan de site</h2>
+            <p><a href="popup" input type="button">Conditions générales</a></p>
+            <p><a href="popup" input type="button">Mentions légales</a></p>
+            <p><a href="contact.html" input type="button">Nous contacter</a></p>
+        </div>
+
+        <div class="sponsor"><img src="bugatti.jpg"></div>
+        <div class="sponsor"><img src="crédit mutuel.jpg"></div>
+        <div class="sponsor"><img src="logo-france-bleu-seo.jpg"></div>
+
+    </footer>
+
+    
+
+
+    </body>
+</html>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<bibliotheque>
+-<livres id="01">
+-<livre>
+<titre>Lena situation</titre>
+<categorie>romans français</categorie>
+-<auteurs>
+<auteur>blabla</auteur>
+</auteurs>
+<editeur>blublu</editeur>
+<description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed delectus, assumenda aut iste ab
+ laborum cumque eaque, eum rerum praesentium cum eius ducimus accusantium et repudiandae ad placeat ullam deserunt.
+</livre>
+<pages>300</pages>
+<couverture src="../img/jac1.png"/>
+<prix>200 €</prix>
+<edition>édition 1</edition>
+<parution>01/01/2021</parution>
+<commentaire>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae libero in omnis, magnam doloremque
+ mollitia voluptas eum vitae odit ex ullam sint enim minus suscipit, adipisci maiores, tenetur perspiciatis nisi.
+<note>0.1/10</note>
+</livres>
+
+
+-<livres id="02">
+-<livre>
+<titre>Lena situation</titre>
+<categorie>romans français</categorie>
+-<auteurs>
+<auteur>blabla</auteur>
+</auteurs>
+<editeur>blublu</editeur>
+<description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed delectus, assumenda aut iste ab
+ laborum cumque eaque, eum rerum praesentium cum eius ducimus accusantium et repudiandae ad placeat ullam deserunt.
+</livre>
+<pages>300</pages>
+<couverture src="../img/jac1.png"/>
+<prix>200 €</prix>
+<edition>édition 1</edition>
+<parution>01/01/2021</parution>
+<commentaire>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae libero in omnis, magnam doloremque
+ mollitia voluptas eum vitae odit ex ullam sint enim minus suscipit, adipisci maiores, tenetur perspiciatis nisi.
+<note>0.1/10</note>
+</livres>
+
+-<livres id="03">
+-<livre>
+<titre>Et tu entendra le bruit de l'eau</titre>
+<categorie>romans étranger</categorie>
+-<auteurs>
+<auteur>blabla</auteur>
+</auteurs>
+<editeur>blublu</editeur>
+<description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed delectus, assumenda aut iste ab
+ laborum cumque eaque, eum rerum praesentium cum eius ducimus accusantium et repudiandae ad placeat ullam deserunt.
+</livre>
+<pages>300</pages>
+<couverture src="../img/jac2.png"/>
+<prix>200 €</prix>
+<edition>édition 1</edition>
+<parution>01/01/2021</parution>
+<commentaire>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae libero in omnis, magnam doloremque
+ mollitia voluptas eum vitae odit ex ullam sint enim minus suscipit, adipisci maiores, tenetur perspiciatis nisi.
+<note>0.1/10</note>
+</livres>
+
+-<livres id="04">
+-<livre>
+<titre>Une vie sur le trottoir</titre>
+<categorie>documentaire</categorie>
+-<auteurs>
+<auteur>blabla</auteur>
+</auteurs>
+<editeur>blublu</editeur>
+<description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed delectus, assumenda aut iste ab
+ laborum cumque eaque, eum rerum praesentium cum eius ducimus accusantium et repudiandae ad placeat ullam deserunt.
+</livre>
+<pages>300</pages>
+<couverture src="../img/jac3.png"/>
+<prix>200 €</prix>
+<edition>édition 1</edition>
+<parution>01/01/2021</parution>
+<commentaire>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae libero in omnis, magnam doloremque
+ mollitia voluptas eum vitae odit ex ullam sint enim minus suscipit, adipisci maiores, tenetur perspiciatis nisi.
+<note>0.1/10</note>
+</livres>
+
+-<livres id="04">
+-<livre>
+<titre>Les mémoires d'un chat</titre>
+<categorie>Biographie</categorie>
+-<auteurs>
+<auteur>blabla</auteur>
+</auteurs>
+<editeur>blublu</editeur>
+<description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed delectus, assumenda aut iste ab
+ laborum cumque eaque, eum rerum praesentium cum eius ducimus accusantium et repudiandae ad placeat ullam deserunt.
+</livre>
+<pages>300</pages>
+<couverture src="../img/jac4.png"/>
+<prix>200 €</prix>
+<edition>édition 1</edition>
+<parution>01/01/2021</parution>
+<commentaire>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae libero in omnis, magnam doloremque
+ mollitia voluptas eum vitae odit ex ullam sint enim minus suscipit, adipisci maiores, tenetur perspiciatis nisi.
+<note>0.1/10</note>
+</livres>
